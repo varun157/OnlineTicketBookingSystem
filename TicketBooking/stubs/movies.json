@@ -1,0 +1,10 @@
+{
+  "movies": [
+  {"id": 1, "name":"Avengers: Endgame", "poster": "images/AvengersEndgameCarousel.jpg", "thumbnail": "images/AvengersEndgame.jpg"},
+  {"id": 2, "name":"Dark Phoenix", "poster": "images/DarkPhoenixCarousel.png", "thumbnail": "images/DarkPhoenix.jpg"},
+  {"id": 3, "name":"Men In Black: International", "poster": "images/MIBCarousel.jpg", "thumbnail": "images/MIB.png"},
+  {"id": 4, "name":"Annabelle Comes Home", "poster": "images/AnnabelleCarousel.jpg", "thumbnail": "images/Annabelle.jpg"},
+  {"id": 5, "name":"Spiderman: Far From Home", "poster":"images/SpidermanCarousel.png", "thumbnail": "images/Spiderman.jpg"},
+  {"id": 6, "name":"Aladdin", "poster":"images/AladdinCarousel.jpg", "thumbnail": "images/Aladdin.jpg"}
+]
+}

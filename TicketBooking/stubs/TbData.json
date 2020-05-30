@@ -1,0 +1,1200 @@
+{
+  "locations": [
+    {
+      "city": "Chandigarh",
+      "cinemas": [
+        {
+          "name": "PVR: Elante",
+          "movies": [
+            {
+              "name": "Avengers Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR: DLF City Centre",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Piccadily Square",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "7:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Delhi",
+      "cinemas": [
+        {
+          "name": "PVR: Promenade",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR ECX: Chanakyapuri",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "8:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR: Select City Walk",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Noida",
+      "cinemas": [
+        {
+          "name": "Carnival: TGIP",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR ECX: Mall of India",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR: Logix",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Gurgaon",
+      "cinemas": [
+        {
+          "name": "PVR: Ambience",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Carnival: Ansal Plaza",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PVR: City Centre",
+          "movies": [
+            {
+              "name": "Avengers: Endgame",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Spiderman: Far From Home",
+              "timings": [
+                {
+                  "slot": "10:00 am"
+                },
+                {
+                  "slot": "1:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Dark Phoenix",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "2:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Annabelle Comes Home",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "12:00 pm"
+                },
+                {
+                  "slot": "3:00 pm"
+                },
+                {
+                  "slot": "6:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Aladdin",
+              "timings": [
+                {
+                  "slot": "9:00 am"
+                },
+                {
+                  "slot": "11:00 pm"
+                },
+                {
+                  "slot": "5:00 pm"
+                }
+              ]
+            },
+            {
+              "name": "Men In Black: International",
+              "timings": [
+                {
+                  "slot": "11:00 am"
+                },
+                {
+                  "slot": "4:00 pm"
+                },
+                {
+                  "slot": "9:00 pm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script type="text/javascript" src="tb.js"></script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Arial";
+        }
+    </style>
+</head>
+
+<body onload="getData()">
+
+    <div class="container" style="margin:auto">
+        <br>
+        <h3 style="text-align:center" id="movie"></h3>
+        <br>
+        <p id="selectionInfo" style="text-align:center"></p>
+        <br>
+
+        <div style="text-align:center" id="seats">
+            <h6>How many seats?</h6>
+            <br>
+            <select style="width:100px; height:40px" onchange="selectSeats(this)">
+                <option value="none">--Select--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="arrangement" id="arrangement" style="display:none">
+            <div style="text-align:center" class="diamond">
+                <h5>Diamond Class</h5>
+                <label class="checkbox-inline">
+                    <input type="checkbox" style="width: 20px; height: 20px" name="seat" value="d1">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d2">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d3">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d4">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d5">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d6">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d7">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d8">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d9">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d10">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d11">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d12">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d13">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d14">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d15">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d16">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d17">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d18">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d19">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="d20">
+                </label>
+            </div>
+            <div style="text-align:center" class="gold">
+                <h5>Gold Class</h5>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g1">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g2">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g3">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g4">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g5">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g6">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g7">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g8">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g9">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g10">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g11">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g12">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g13">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g14">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g15">
+                </label>
+                <br>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g16">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g17">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g18">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g19">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g20">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g21">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g22">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g23">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g24">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g25">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g26">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g27">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g28">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g29">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="g30">
+                </label>
+
+            </div>
+            <div style="text-align:center" class="silver">
+                <h5>Silver Class</h5>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s1">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s2">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s3">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s4">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s5">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s6">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s7">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s8">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s9">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s10">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s11">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s12">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s13">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s14">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s15">
+                </label>
+                <br>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s16">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s17">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s18">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s19">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s20">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s21">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s22">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s23">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s24">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s25">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s26">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s27">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s28">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s29">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s30">
+                </label>
+                <br>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s31">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s31">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s33">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s34">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s35">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s36">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s37">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s38">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s39">
+                </label>
+                <label class="checkbox-inline">
+                    <input class="seatSelection" type="checkbox" style="width: 20px; height: 20px" name="seat" value="s40">
+                </label>
+            </div>
+            <br>
+        </div>
+
+        <div style="text-align:center;visibility:hidden">
+            <button id="proceed" type="button" class="btn btn-primary" onclick="showTickets()">Confirm</button>
+        </div>
+        <br>
+        <br>
+
+        <div id="ticketPrint" style="color:black; display: none">
+            <div id="tkt" class="ticket">
+                <img src="" id="thumb">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

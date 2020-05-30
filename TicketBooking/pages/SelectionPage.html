@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script type="text/javascript" src="tb.js"></script>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: "Arial";
+    }
+  </style>
+</head>
+
+<body>
+
+  <div  style="text-align:center">
+    <img src="" id="poster" width="60%">
+    <br>
+    <br>
+  </div>
+
+  <div class="container">
+    <br>
+    <h2 style="text-align:center" id="movieHeading"></h2>
+    <br>
+    <br>
+
+    <div id="cities">
+      <h4>Select City</h4>
+      <br>
+    </div>
+    <br>
+    <br>
+
+    <div id="cinemas" style="visibility:hidden">
+      <h4>Select Cinema</h4>
+      <br>
+    </div>
+    <br>
+    <br>
+
+    <div id="slots" style="visibility:hidden">
+      <h4>Select Timing</h4>
+      <br>
+      <br>
+      <div id="timings"></div>
+    </div>
+    <br>
+    <br>
+
+    <div style="text-align:center;visibility:hidden">
+      <button id="button" type="button" class="btn btn-primary" onclick="setData()">Next</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
